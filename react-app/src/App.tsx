@@ -18,7 +18,7 @@ function App() {
         <Alert>
             <span> Hello World </span>
         </Alert>
-        <Button>hej</Button>
+        <Button color="primary" onClick={() => console.log('clicked') }>Button</Button>
     </div>
     //<div>
     //    <ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem} />
